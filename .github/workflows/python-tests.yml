@@ -84,7 +84,7 @@ jobs:  # Задачи, которые будут выполнены
         echo "![Тесты пройдены](https://github.com/${{ github.repository }}/actions/workflows/python-tests.yml/badge.svg)" >> README.md
 
     - name: Upload documentation  # Сохраняем документацию как артефакт
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: documentation
         path: README.md

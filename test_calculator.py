@@ -1,6 +1,7 @@
 import pytest
 from calculator import calculate, divide
 
+
 def test_addition():
     """Тест сложения"""
     assert calculate('+', 2, 3) == 5
